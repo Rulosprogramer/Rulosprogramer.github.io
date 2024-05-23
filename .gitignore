@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+
+# Archivos de configuración y secretos
+.env
+config.js
+
+# Archivos de logs
+*.log
+
+# Archivos temporales y de caché
+*.tmp
+tmp/
+
+# Archivos generados por la compilación
+dist/
+build/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos específicos de editores de código
+.vscode/
+.idea/
+
+# Base de datos (si no quieres incluirla en el repositorio)
+*.db
+*.sqlite
+
+# Archivos de credenciales (si los tienes)
+credentials.json
+
+# Otros archivos o carpetas que no quieres subir
+uploads/
