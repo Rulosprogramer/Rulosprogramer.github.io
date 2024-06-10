@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.getElementById('whatsapp-button').addEventListener('click', function (event) {
+    event.preventDefault();
+    window.open('https://wa.me/+573227093940', '_blank');
+});
+
 
 
 (() => {
@@ -154,6 +159,7 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
+
 
 
 
